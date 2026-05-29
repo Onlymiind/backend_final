@@ -1,0 +1,21 @@
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+sqlalchemy>=2.0.23
+alembic>=1.13.1
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.7
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt==4.0.1
+python-multipart>=0.0.6
+redis>=5.0.1
+async-lru>=2.0.4
+python-dotenv>=1.2.2
+pydantic-settings>=2.14.1
+httpx2
+
+# For tests
+aiosqlite>=0.22.1
+pytest-env>=1.6.0
+pytest_asyncio
